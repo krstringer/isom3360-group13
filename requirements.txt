@@ -1,0 +1,11 @@
+# Libraries imported by ISOM3360_Project_Group13.ipynb
+numpy
+pandas
+scikit-learn>=1.2
+imbalanced-learn
+matplotlib
+ipython
+
+# Local notebook interface and Python kernel
+jupyterlab
+ipykernel
