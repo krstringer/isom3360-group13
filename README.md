@@ -17,9 +17,7 @@ Developed collaboratively in Google Colab. This repository is a versioned archiv
 
 ## Run predictions locally
 
-Open a terminal in the project folder and create a Python environment.
-
-Create virtual environment and install dependencies from requirements.txt
+Navigate to the project root directory and create a virtual environment then install dependencies from requirements.txt file
 
 ### Prepare and predict
 

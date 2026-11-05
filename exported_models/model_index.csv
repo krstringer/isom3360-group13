@@ -1,0 +1,14 @@
+Model,File,Threshold,Fit action,Features
+Majority Classifier,exported_models/01_majority_classifier.joblib,model default,Fitted a copy on the training split,95
+Logistic Regression,exported_models/02_logistic_regression.joblib,model default,Fitted a copy on the training split,95
+Shallow Decision Tree,exported_models/03_shallow_decision_tree.joblib,model default,Fitted a copy on the training split,95
+Tuned Logistic Regression,exported_models/04_tuned_logistic_regression.joblib,model default,Preserved existing fitted model,95
+Tuned Decision Tree,exported_models/05_tuned_decision_tree.joblib,model default,Preserved existing fitted model,95
+Tuned Decision Tree - No Treatment,exported_models/06_tuned_decision_tree_no_treatment.joblib,model default,Fitted a copy on the training split,95
+Tuned Decision Tree - Undersampling,exported_models/07_tuned_decision_tree_undersampling.joblib,model default,Fitted a copy on the training split,95
+Tuned Decision Tree - Oversampling,exported_models/08_tuned_decision_tree_oversampling.joblib,model default,Fitted a copy on the training split,95
+Tuned Decision Tree - SMOTE,exported_models/09_tuned_decision_tree_smote.joblib,model default,Fitted a copy on the training split,95
+Tuned Decision Tree - Class Weighting,exported_models/10_tuned_decision_tree_class_weighting.joblib,model default,Fitted a copy on the training split,95
+Cost-Sensitive Decision Tree,exported_models/11_cost_sensitive_decision_tree.joblib,model default,Preserved existing fitted model,95
+AdaBoost - Undersampling,exported_models/12_adaboost_undersampling.joblib,model default,Fitted a copy on the training split,95
+Gradient Boosting - Undersampling,exported_models/13_gradient_boosting_undersampling.joblib,model default,Fitted a copy on the training split,95
