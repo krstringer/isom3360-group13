@@ -1,6 +1,6 @@
 # ISOM3360 Group 13 Project
 
-Developed collaboratively in Google Colab. This repository is a versioned archive; commit dates do not reflect when the work was completed.
+Note: Commit history does not reflect real-time work. This repository serves as a version-controlled archive; updates are developed collabratively in Google Colab.
 
 ## Modelling procedures
 0. Setup
@@ -17,7 +17,7 @@ Developed collaboratively in Google Colab. This repository is a versioned archiv
 
 ## Run predictions locally
 
-Navigate to the project root directory and create a virtual environment then install dependencies from requirements.txt file
+Navigate to the project root directory and create a virtual environment, then install dependencies from requirements.txt file with pip.
 
 ### Prepare and predict
 
@@ -36,10 +36,10 @@ The export includes all 13 named configurations, regardless of performance. Each
 
 ### Settings and compatibility
 
-- Paths use the working directory printed by settings. Change `EXPORT_DIR` if bundles are elsewhere.
+- Paths use the working directory printed by settings. Change `EXPORT_DIR` if the exported models (bundles) are elsewhere.
 - After switching models, rerun settings and all following cells.
 - Leave `THRESHOLD_OVERRIDE = None` to use the saved rule. Overrides should come from training/validation data.
 - To replace an existing result, set `OVERWRITE_OUTPUT = True`; otherwise choose a new `OUTPUT_PATH`.
-- Match the package versions recorded in the bundle; requirements are not fully pinned. Load only trusted bundles.
+- Match the package versions recorded in the bundle: most requirements are not pinned to a specific version number, so be wary... 
 
-Risk scores require calibration before interpretation as probabilities. Use review flags to support analyst judgment.
+Use review flags to support judgment.
